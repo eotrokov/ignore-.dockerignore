@@ -14,7 +14,7 @@ in output error
 
 ## without ignore
 ```
-docker build -t without_ignore -f Dockerfile .
+docker build -t without_ignore -f Dockerfile.dev .
 
 docker run without_ignore
 ```
