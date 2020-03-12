@@ -7,7 +7,7 @@ how to use
 ```
 docker build -t with_ignore -f Dockerfile .
 
-docker run with_ignore
+docker run --rm with_ignore
 ```
 in output error
 
@@ -16,7 +16,7 @@ in output error
 ```
 docker build -t without_ignore -f Dockerfile.dev .
 
-docker run without_ignore
+docker run --rm without_ignore
 ```
 in output 
   
